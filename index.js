@@ -9,7 +9,7 @@ const server = require("http").createServer(app);
 
 const io = require("socket.io")(server,{
     cors:{
-        origin:['https://ichat-myles-projects-1e7607f0.vercel.app/']
+        origin:['https://vercel.com/myles-projects-1e7607f0/ichat/BVxGLPnTZ7P927KPueutqy9vAcQc']
     }
 });
 
