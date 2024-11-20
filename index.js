@@ -7,7 +7,11 @@ const port = 3000;
 const app = require("express")();
 const server = require("http").createServer(app);
 
-const io = require("socket.io")(server);
+const io = require("socket.io")(server,{
+    cors:{
+        origin:['https://ichat-myles-projects-1e7607f0.vercel.app/']
+    }
+});
 
  app.use(express.static(path.join(__dirname+"/public")));
 
