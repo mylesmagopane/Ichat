@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script  src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer type="text/javascript" src="code.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body>
     <div class="app">
@@ -37,31 +40,6 @@
         </div>
     </div>
 
-    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
-    <!-- <script type="javascript" src="/socket.io/socket.io-3.0.1.min.js"></script> -->
-    <!-- <script defer type="javascript" src="/socket.io/socket.io.js"></script> -->
-    <script defer type="text/javascript" src="code.js">
-        
-    </script>
-    <!-- <script>
-        const app = document.querySelector(".app");
-      
-            app.querySelector(".join-screen #join-user").addEventListener("click",function(){
-        let username = app.querySelector(".join-screen #username").value;
-        if(username.length == 0){
-            return;
-        }
-        // socket.emit("newuser",username);
-        // uname = username;
-        app.querySelector(".join-screen").classList.remove("active");
-        app.querySelector(".chat-screen").classList.add("active");
 
-        app.querySelector(".chat-screem #send-message").addEventListener("click",function(){
-
-        });
-
-    });
-    </script> -->
-   
 </body>
 </html>
