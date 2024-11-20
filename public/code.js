@@ -1,5 +1,5 @@
 
-const socket = io('https://vercel.com/myles-projects-1e7607f0/ichat/BVxGLPnTZ7P927KPueutqy9vAcQc');
+const socket = io();
 const app = document.querySelector(".app");
 
  let uname;
